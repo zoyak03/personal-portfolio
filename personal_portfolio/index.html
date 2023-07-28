@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel = "stylesheet" href ="style.css">
+    <script src="https://kit.fontawesome.com/0e9b648607.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "img/Zoya K. (1).png" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class = "fas fa-times" onclick = "closemenu()"></i>
+                </ul>
+                <i class = "fas fa-bars" onclick = "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Front-End Developer</p>
+                <h1>Hi, I'm <span>Zoya</span><br> Khan From New York</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               
+                <div class="about-col-1">
+                    <img src="img/Untitled design (3).png" >
+                </div>
+              
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an aspiring Front-End Developer and Junior Computer Science student, 
+                        I am driven to create engaging and user-friendly web experiences. Proficient in 
+                        HTML/CSS, a bit of JavaScript, Python, and C++, I hold a solid foundation in programming 
+                        languages that allows me to create dynamic and interactive websites. I am currently serving 
+                        as the Executive Secretary for the Women in Computer Science club at Hunter College, and I am 
+                        dedicated to empowering and supporting women in pursuing careers in technology. Furthermore, I 
+                        bring additional skills to the table. I am proficient in WordPress, Adobe Photoshop, and Microsoft Office. 
+                        I also have a strong readiness for project management and thrive in collaborative team environments. My ultimate goal 
+                        is to contribute to the growth of the tech industry by bringing more women into the field and 
+                        creating inclusive digital experiences. I would love to connect and explore 
+                        potential opportunities to work together. Don't hesitate to reach out!</p>
+                    
+                    <div class ="tab-titles">
+                        <p class ="tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class ="tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class ="tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Python</li>
+                            <li><span>C++</span><br>JavaScript</li>
+                            <li><span>Web Development</span><br>Microsoft Office</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Software Intern at XRSI</li>
+                            <li><span>2023-Current</span><br>IT Support Intern at NYC HRA/DSS</li>
+                            <li><span>2023-Current</span><br>Executive Secretary at WiCS Club</li>
+                            <li><span>2019-2019</span><br>Intern at Girls Who Code</li>
+                            <li><span>2020-2020</span><br>Summer Guild at Break Through Tech</li> 
+                            
+                         </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Pursuing Computer Science at Hunter College</li>
+                            <li><span>2017-2021</span><br>Franklin.D.Roosevelt High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!------end of about ------>
+  <!--services-->
+  <div id="services">
+    <div class = "container">
+        <h1 class = "sub-title">Services</h1>
+        <div class = "service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating a web design that prioritizes user experience, 
+                    ensuring seamless navigation and engagement through intuitive interfaces,
+                    responsive design, and optimized performance.</p>
+                <a href = "#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Back-End Development</h2>
+                <p>Proficient in backend languages like Python and C++, I have the skills to develop robust and efficient web applications.
+                    With a focus on creating seamless user experiences, I ensure reliable and scalable systems.</p>
+                <a href = "#"> Learn More</a>
+            </div>
+            
+
+        </div>
+    </div>
+  </div>
+<!------------portfolio---------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">Projects</h1>
+        <div class = "work-list">
+            <div class="work">
+                <img src = "img/proj1.png">
+                <div class ="layer">
+                    <h3>Recipe Website</h3>
+                    <p>This website is currently in progress and 
+                        it will allow you to go through many recipes
+                        and see how to create foods.
+                    </p>
+                    <a href ="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src = "img/proj2.png">
+                <div class ="layer">
+                    <h3>Climate Change News Website</h3>
+                    <p>This website is currently in progress and will
+                        show the latest news on climate change, as well 
+                        as have a community outreach system to speak to
+                        others and help protect the planet.
+                    </p>
+                    <a href ="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src = "img/proj3.png">
+                <div class ="layer">
+                    <h3>Recipe Website</h3>
+                    <p>This website is currently in progress and 
+                        it will help ease the way you look for Travel
+                        destinations, as well as hotels and flights.
+                    </p>
+                    <a href ="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div> 
+        </div>
+        <a href = "#" class ="btn">See More</a>
+    </div>
+</div>
+<!----contact-->
+<div id = "contact">
+    <div class = "container">
+        <div class = "row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>zoeyk430@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>347-922-2120</p>
+                <div class = "social-icons">
+                    <a href = ""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href = ""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href = ""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href ="img/new resume.pdf.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name ="Name" placeholder = "Your Name" required>
+                    <input type = "email" name = "Email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
+                    <button type = "submit" class="btn btn2">Submit</button>
+                </form>
+                <span id = "msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class = "copyright">
+        <p>Copyright © Zoya. All rights reserved</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZDBfQtqW3eisbtlefSsh81SiX88SxMOJp8_kUTmg_LDpytYY2psKcu_-oVFu2LA9T/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
